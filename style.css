@@ -13,7 +13,7 @@ button {
     outline: none!important;
 }
 
-a:hover {
+a:hover:not(.btn) {
     color: #1a188b!important;
     cursor: pointer;
     text-decoration: underline!important;
@@ -541,10 +541,9 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-    font-size: 32px;
+    font-size: 35px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -835,6 +834,11 @@ h4 {
     color: #575757!important;
 }
 
+.col-sm-6 a{
+    display: flex;
+    justify-content: center;
+}
+
 .form-group{
     display: flex;
     flex-direction: column;
@@ -843,9 +847,8 @@ h4 {
 #bloc-6 .container{
     margin: auto;
 }
-#blox-6 .col-sm-12{
-    display: flex;
-    justify-content: center;
+#bloc-6 .col-sm-12{
+    text-align: center;
 }
 
 #bloc-7 .container{
@@ -854,6 +857,24 @@ h4 {
 #bloc-7 .row{
     display: flex;
     justify-content: space-around;
+}
+
+footer .col-sm-4{
+    text-align: center;
+}
+footer p{
+    font-size: 18px;
+}
+footer nav{
+    padding-top: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
 }
 
 
@@ -1057,6 +1078,13 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    #bloc-7 .row{
+        justify-content: none;
+        flex-direction: column;
+    }
+    .social{
+        display: block;
     }
 }
 
