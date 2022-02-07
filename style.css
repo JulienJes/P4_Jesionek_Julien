@@ -705,8 +705,8 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    display: block;
+    margin: auto;
 }
 
 h2 {
@@ -876,6 +876,12 @@ footer ul{
     list-style: none;
     padding-left: 0;
 }
+.socials{
+    display: flex;
+}
+.col-sm-3{
+    width: 25%;
+}
 
 
 @media (max-width: 1024px) {
@@ -1033,7 +1039,7 @@ footer ul{
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 60px 0;
     }
     .bloc-sm,
     .bloc-md {
@@ -1082,9 +1088,6 @@ footer ul{
     #bloc-7 .row{
         justify-content: none;
         flex-direction: column;
-    }
-    .social{
-        display: block;
     }
 }
 
