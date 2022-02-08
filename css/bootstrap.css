@@ -2327,12 +2327,12 @@ pre code {
     .col-sm-5 {
         width: 41.66666667%
     }
-    /*.col-sm-4 {
+    .col-sm-4 {
         width: 33.33333333%
-    }*/
-    /*.col-sm-3 {
+    }
+    .col-sm-3 {
         width: 25%
-    }*/
+    }
     .col-sm-2 {
         width: 16.66666667%
     }
