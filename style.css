@@ -852,6 +852,12 @@ footer ul{
 .col-sm-4{
     width: 100%;
 }
+#bloc-6 .col-sm-12 h1{
+    color: white!important;
+}
+#bloc-6 .col-sm-12 p{
+    color: white!important;
+}
 
 @media (max-width: 1024px) {
     .bloc {
