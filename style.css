@@ -81,21 +81,6 @@ a:hover:not(.btn) {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -758,7 +743,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #36301eb3!important;
     padding: 40px 40px 40px 40px;
 }
 
@@ -788,7 +773,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-orange:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
@@ -864,7 +849,9 @@ footer ul{
 .col-sm-3{
     width: 25%;
 }
-
+.col-sm-4{
+    width: 100%;
+}
 
 @media (max-width: 1024px) {
     .bloc {
