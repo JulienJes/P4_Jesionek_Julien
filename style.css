@@ -844,24 +844,6 @@ h4 {
     flex-direction: column;
 }
 
-#bloc-6 .container{
-    margin: auto;
-}
-#bloc-6 .col-sm-12{
-    text-align: center;
-}
-
-#bloc-7 .container{
-    margin: auto;
-}
-#bloc-7 .row{
-    display: flex;
-    justify-content: space-around;
-}
-
-footer .col-sm-4{
-    text-align: center;
-}
 footer p{
     font-size: 18px;
 }
